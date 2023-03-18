@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lecture Suggestions Form</title>
+    <link rel='stylesheet' type='text/css' href='{{ url_for('static', filename='style.css') }}' />
+  </head>
+  <body>
+    <h1>Lecture Suggestions</h1>
+    
+    <form method='post'>
+      <input type='text' name='remarks' />
+      <input type='submit' value='Submit' />
+      <input type='submit' name='dontsubmit' value="Don't Submit" />
+    </form>
+  </body>
+</html>
