@@ -4,9 +4,11 @@ body {
   color: #333;
 }
 
-h1 {
+h1, div, p {
   text-align: center;
 }
+
+
 
 form {
   margin: 0 auto;
